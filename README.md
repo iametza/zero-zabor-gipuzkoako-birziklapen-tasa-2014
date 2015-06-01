@@ -1,6 +1,7 @@
 # Zero Zabor bloga - 2014ko Gipuzkoako herrietako birziklapen tasen bisualizazioa
 
 ARGIA.eus-eko Zero Zabor blogean argitaratua:
+
 http://www.argia.eus/blogak/zero-zabor/2015/05/31/2014ko-datu-nagusia-errefus-kiloak-pertsonaurteko-gipuzkoako-herrietan/
 
 ## Eskertzak
