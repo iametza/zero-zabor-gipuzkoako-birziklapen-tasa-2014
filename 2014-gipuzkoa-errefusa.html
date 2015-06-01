@@ -1,0 +1,70 @@
+<!doctype html>
+
+<!-- iframearen eta #kontainerra-ren altuera:
+		Araba: 1000
+		Bizkaia: 800
+		Gipuzkoa: 820
+		Nafarroa: 1000
+-->
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Birziklapena Gipuzkoan 2014</title>
+		<link href="css/estiloa.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<div id="kontainerra">
+			<div id="mapa"></div>
+			<div class="hasierako-mezua">Pasa sagua herrien gainetik xehetasunak bistaratzeko.</div>
+			<table class="legenda">
+				<tr>
+					<th></th>
+					<th>Birziklapen tasa</th>
+				</tr>
+				<tr>
+					<td class="kolorea" bgcolor="#CCCCCC">&nbsp;</td>
+					<td>Daturik ez</td>
+				</tr>
+				<tr>
+					<td class="kolorea" bgcolor="#C7FDB5">&nbsp;</td>
+					<td>100 kilo baino gutxiago</td>
+				</tr>
+				<tr>
+					<td class="kolorea" bgcolor="#A4FBA6">&nbsp;</td>
+					<td>100 eta 200 kilo artean</td>
+				</tr>
+				<tr>
+					<td class="kolorea" bgcolor="#4AE54A">&nbsp;</td>
+					<td>200 eta 300 kilo artean</td>
+				</tr>
+				<tr>
+					<td class="kolorea" bgcolor="#006203">&nbsp;</td>
+					<td>300 baino gehiago</td>
+				</tr>
+			</table>
+			<div class="datuak">
+				<div id="unitatea-izena"></div>
+				<div class="daturik-ez">Daturik ez dago.</div>
+				<table class="datuak-taula">
+					<tr>
+						<td>Birziklapen tasa</td>
+						<td class="birziklapen-tasa eskuinekoa"></td>
+					</tr>
+					<!--<tr>
+						<td>Errefusa (kg/b/ur)</td>
+						<td class="errefusa eskuinekoa"></td>
+					</tr>-->
+				</table>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="js/d3.v3.min.js"></script>
+		<script type="text/javascript" src="js/topojson.v1.min.js"></script>
+		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+		
+		<script type="text/javascript" src="js/gipuzkoa-errefusa-2014.js"></script>
+		
+	</body>
+</html>
