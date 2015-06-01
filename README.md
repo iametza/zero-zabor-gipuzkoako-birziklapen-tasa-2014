@@ -29,5 +29,5 @@ Birziklapenaren datuen CSV fitxategiak eta datu geografikoen topoJSON fitxategie
 </p>
 ### Birziklapen tasa mankomunitateka
 <p align="center">
-  <img src="pantaila-argazkiak/2014-gipuzkoa-birziklapena-mankomunitateak.png?raw=true" alt="Birziklapen tasaren mankomunitatekako bisualizazioaren pantaila-argazkia"/>
+  <img src="pantaila-argazkiak/2014-gipuzkoa-birziklapen-tasa-mankomunitateak.png?raw=true" alt="Birziklapen tasaren mankomunitatekako bisualizazioaren pantaila-argazkia"/>
 </p>
