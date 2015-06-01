@@ -41,14 +41,10 @@
 
 .daturik-ez {
     display: none; /* Hasieran ezkutuan */
-    left: 600px;
-    position: absolute;
     text-align: center;
-    top: 290px;
 }
 
 .datuak {
-    display: none; /* Hasieran ezkutuan */
     left: 100px;
     margin-left: auto;
     margin-right: auto;
@@ -65,6 +61,7 @@
 }
 
 .datuak-taula {
+    display: none;  /* Hasieran ezkutuan */
     margin-left: auto;
     margin-right: auto;
 }

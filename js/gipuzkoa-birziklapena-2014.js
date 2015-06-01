@@ -131,31 +131,35 @@
                 .enter().append("path")
                 .attr("fill", function(d) {
                     
-                    if (d.properties.datuak && d.properties.datuak.ehunekoa) {
+                    if (d.properties.datuak) {
                         
-                        if (d.properties.datuak.ehunekoa <= 40) {
+                        if (d.properties.datuak.ehunekoa) {
                             
-                            return "#C7FDB5";
-                            
-                        } else if (d.properties.datuak.ehunekoa > 40 && d.properties.datuak.ehunekoa <= 50) {
-                            
-                            return "#A4FBA6";
-                            
-                        } else if (d.properties.datuak.ehunekoa > 50 && d.properties.datuak.ehunekoa <= 60) {
-                            
-                            return "#4AE54A";
-                            
-                        } else if (d.properties.datuak.ehunekoa > 60 && d.properties.datuak.ehunekoa <= 70) {
-                            
-                            return "#30CB00";
-                            
-                        } else if (d.properties.datuak.ehunekoa > 70 && d.properties.datuak.ehunekoa <= 80) {
-                            
-                            return "#0F9200";
-                            
-                        } else if (d.properties.datuak.ehunekoa > 80) {
-                            
-                            return "#006203";
+                            if (d.properties.datuak.ehunekoa <= 40) {
+                                
+                                return "#C7FDB5";
+                                
+                            } else if (d.properties.datuak.ehunekoa > 40 && d.properties.datuak.ehunekoa <= 50) {
+                                
+                                return "#A4FBA6";
+                                
+                            } else if (d.properties.datuak.ehunekoa > 50 && d.properties.datuak.ehunekoa <= 60) {
+                                
+                                return "#4AE54A";
+                                
+                            } else if (d.properties.datuak.ehunekoa > 60 && d.properties.datuak.ehunekoa <= 70) {
+                                
+                                return "#30CB00";
+                                
+                            } else if (d.properties.datuak.ehunekoa > 70 && d.properties.datuak.ehunekoa <= 80) {
+                                
+                                return "#0F9200";
+                                
+                            } else if (d.properties.datuak.ehunekoa > 80) {
+                                
+                                return "#006203";
+                                
+                            }
                             
                         } else {
                             
@@ -194,11 +198,13 @@
                         
                         $(".daturik-ez").hide();
                         
-                        $(".datuak").show();
+                        $(".datuak-taula").show();
                         
                     } else {
                         
-                        $(".datuak").hide();
+                        $(".hasierako-mezua").hide();
+                        
+                        $(".datuak-taula").hide();
                         
                         $(".daturik-ez").show();
                         
