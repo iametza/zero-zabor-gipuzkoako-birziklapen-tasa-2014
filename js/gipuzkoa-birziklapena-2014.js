@@ -178,6 +178,8 @@
                 .attr("d", path)
                 .on("mouseover", function(d) {
                     
+                    $(".hasierako-mezua").hide();
+                    
                     // Elementu geografiko guztiek ez daukate iz_euskal propietatea,
                     // ez badauka ud_iz_e erabili.
                     if (d.properties.iz_euskal) {
@@ -190,19 +192,21 @@
                         
                     }
                     
-                    if (d.properties.datuak.ehunekoa) {
+                    if (!d.properties.datuak) {
+                        
+                        $(".datuak-taula").hide();
+                        
+                        $(".daturik-ez").hide();
+                        
+                    } else if(d.properties.datuak.ehunekoa) {
                         
                         $(".datuak-taula .birziklapen-tasa").text("%" + d.properties.datuak.ehunekoa);
-                        
-                        $(".hasierako-mezua").hide();
                         
                         $(".daturik-ez").hide();
                         
                         $(".datuak-taula").show();
                         
                     } else {
-                        
-                        $(".hasierako-mezua").hide();
                         
                         $(".datuak-taula").hide();
                         
