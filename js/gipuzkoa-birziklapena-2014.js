@@ -163,7 +163,7 @@
                             
                         } else {
                             
-                            return "#CCCCCC";
+                            return "#FCDC72";
                             
                         }
                         
