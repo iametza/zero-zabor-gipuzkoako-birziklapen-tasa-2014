@@ -163,7 +163,7 @@
                             
                         } else {
                             
-                            return "#cccccc";
+                            return "#CCCCCC";
                             
                         }
                         

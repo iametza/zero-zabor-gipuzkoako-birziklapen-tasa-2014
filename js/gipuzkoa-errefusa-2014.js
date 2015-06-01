@@ -155,7 +155,7 @@
                             
                         } else {
                             
-                            return "#cccccc";
+                            return "#FFFFCC";
                             
                         }
                         
@@ -190,9 +190,9 @@
                         
                         $(".daturik-ez").hide();
                         
-                    } else if(d.properties.datuak.ehunekoa) {
+                    } else if(d.properties.datuak.errefusa) {
                         
-                        $(".datuak-taula .birziklapen-tasa").text("%" + d.properties.datuak.ehunekoa);
+                        $(".datuak-taula .birziklapen-tasa").text(d.properties.datuak.errefusa);
                         
                         $(".daturik-ez").hide();
                         
