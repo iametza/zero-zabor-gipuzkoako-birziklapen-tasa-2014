@@ -12,7 +12,7 @@ http://www.argia.eus/blogak/zero-zabor/2015/05/31/2014ko-datu-nagusia-errefus-ki
 
 Iturburu-kodeak [GNU General Public License v3](http://www.gnu.org/licenses/gpl.html) lizentzia dauka.
 
-Hauteskundeetako datuen JSON fitxategiek eta datu geografikoen topoJSON fitxategiek [Creative Commons BY SA](http://creativecommons.org/licenses/by-sa/4.0/) lizentzia dute.
+Birziklapenaren datuen CSV fitxategiak eta datu geografikoen topoJSON fitxategiek [Creative Commons BY SA](http://creativecommons.org/licenses/by-sa/4.0/) lizentzia dute.
 
 ##Pantaila-argazkiak
 <p align="center">
