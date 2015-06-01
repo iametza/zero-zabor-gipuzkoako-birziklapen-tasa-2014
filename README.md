@@ -1,4 +1,4 @@
-# Zero Zabor bloga - 2014ko Gipuzkoako herrietako birziklapen tasen bisualizazioa
+# Zero Zabor bloga - 2014ko Gipuzkoako herrietako birziklapen datuen bisualizazioa
 
 ARGIA.eus-eko Zero Zabor blogean argitaratua:
 
@@ -14,7 +14,10 @@ Iturburu-kodeak [GNU General Public License v3](http://www.gnu.org/licenses/gpl.
 
 Hauteskundeetako datuen JSON fitxategiek eta datu geografikoen topoJSON fitxategiek [Creative Commons BY SA](http://creativecommons.org/licenses/by-sa/4.0/) lizentzia dute.
 
-##Pantaila-argazkia
+##Pantaila-argazkiak
 <p align="center">
-  <img src="pantaila-argazkiak/2014-gipuzkoa-birziklapena.png?raw=true" alt="Bisualizazioaren pantaila-argazkia"/>
+  <img src="pantaila-argazkiak/2014-gipuzkoa-errefusa.png?raw=true" alt="Errefusaren bisualizazioaren pantaila-argazkia"/>
+</p>
+<p align="center">
+  <img src="pantaila-argazkiak/2014-gipuzkoa-birziklapena.png?raw=true" alt="Birziklapen tasaren bisualizazioaren pantaila-argazkia"/>
 </p>
