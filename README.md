@@ -15,9 +15,19 @@ Iturburu-kodeak [GNU General Public License v3](http://www.gnu.org/licenses/gpl.
 Birziklapenaren datuen CSV fitxategiak eta datu geografikoen topoJSON fitxategiek [Creative Commons BY SA](http://creativecommons.org/licenses/by-sa/4.0/) lizentzia dute.
 
 ##Pantaila-argazkiak
+### Errefusa udalerrika
 <p align="center">
-  <img src="pantaila-argazkiak/2014-gipuzkoa-errefusa.png?raw=true" alt="Errefusaren bisualizazioaren pantaila-argazkia"/>
+  <img src="pantaila-argazkiak/2014-gipuzkoa-errefusa.png?raw=true" alt="Errefusaren udalerrikako bisualizazioaren pantaila-argazkia"/>
 </p>
+### Errefusa Hondakin Mankomunitateka
 <p align="center">
-  <img src="pantaila-argazkiak/2014-gipuzkoa-birziklapena.png?raw=true" alt="Birziklapen tasaren bisualizazioaren pantaila-argazkia"/>
+  <img src="pantaila-argazkiak/2014-gipuzkoa-errefusa-mankomunitateak.png?raw=true" alt="Errefusaren mankomunitatekako bisualizazioaren pantaila-argazkia"/>
+</p>
+### Birziklapen tasa udalerrika
+<p align="center">
+  <img src="pantaila-argazkiak/2014-gipuzkoa-birziklapena.png?raw=true" alt="Birziklapen tasaren udalerrikako bisualizazioaren pantaila-argazkia"/>
+</p>
+### Birziklapen tasa mankomunitateka
+<p align="center">
+  <img src="pantaila-argazkiak/2014-gipuzkoa-birziklapena-mankomunitateak.png?raw=true" alt="Birziklapen tasaren mankomunitatekako bisualizazioaren pantaila-argazkia"/>
 </p>
