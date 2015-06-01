@@ -72,3 +72,16 @@
 .datuak-taula .eskuinekoa {
     text-align: right;
 }
+
+.legenda {
+    left: 500px;
+    position: absolute;
+    top: 340px;
+}
+
+.legenda .kolorea {
+    display: inline-block;
+    height: 15px;
+    margin-right: 5px;
+    width: 15px;
+}

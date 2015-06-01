@@ -133,7 +133,11 @@
                     
                     if (d.properties.datuak && d.properties.datuak.ehunekoa) {
                         
-                        if (d.properties.datuak.ehunekoa <= 50) {
+                        if (d.properties.datuak.ehunekoa <= 40) {
+                            
+                            return "#C7FDB5";
+                            
+                        } else if (d.properties.datuak.ehunekoa > 40 && d.properties.datuak.ehunekoa <= 50) {
                             
                             return "#A4FBA6";
                             
