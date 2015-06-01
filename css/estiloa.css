@@ -49,19 +49,19 @@
 
 .datuak {
     display: none; /* Hasieran ezkutuan */
-    width: 580px;
+    left: 100px;
     margin-left: auto;
     margin-right: auto;
+    position: absolute;
+    top: 0;
+    width: 350px;
 }
 
 #unitatea-izena {
     font-size: 20px;
     font-weight: bold;
-    left: 600px;
     margin-bottom: 10px;
-    position: absolute;
     text-align: center;
-    top: 260px;
 }
 
 .datuak-taula {

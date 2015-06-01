@@ -186,9 +186,9 @@
                         
                     }
                     
-                    if (d.properties.datuak) {
+                    if (d.properties.datuak.ehunekoa) {
                         
-                        $(".datuak-taula birziklapen-tasa").text(d.properties.datuak.ehunekoa);
+                        $(".datuak-taula .birziklapen-tasa").text("%" + d.properties.datuak.ehunekoa);
                         
                         $(".hasierako-mezua").hide();
                         
