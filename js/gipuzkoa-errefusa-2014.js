@@ -133,7 +133,7 @@
                     
                     if (d.properties.datuak) {
                         
-                        if (d.properties.datuak.ehunekoa) {
+                        if (d.properties.datuak.errefusa) {
                             
                             if (d.properties.datuak.errefusa <= 100) {
                                 
