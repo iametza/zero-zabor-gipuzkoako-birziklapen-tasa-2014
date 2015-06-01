@@ -65,8 +65,8 @@
 }
 
 .datuak-taula {
-    float: left;
-    margin-left: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .datuak-taula .eskuinekoa {
